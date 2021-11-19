@@ -1,0 +1,25 @@
+{
+  "name": "keyboard-event-key-type",
+  "version": "1.1.0",
+  "description": "Contains strings literals for the keyboard event keys",
+  "main": "src/.js",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "url": "https://github.com/Moh-Snoussi/MatomoTypes"
+  },
+  "keywords": [
+    "types",
+    "type",
+    "typescript",
+    "keyboard",
+    "events",
+    "controlls",
+    "document",
+    "developer",
+    "mozilla"
+  ],
+  "author": "Mohamed Snoussi",
+  "license": "ISC"
+}
