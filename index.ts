@@ -18,6 +18,7 @@ type SpeechRecognitionKeys = "SpeechCorrectionList" | "SpeechInputToggle"
 type DocumentKeys = "Close" | "New" | "Open" | "Print" | "Save" | "SpellCheck" | "MailForward" | "MailReply" | "MailSend"
 type ApplicationSelectorKeys = "LaunchCalculator" | "LaunchCalendar" | "LaunchContacts" | "LaunchMail" | "LaunchMediaPlayer" | "LaunchMusicPlayer" | "LaunchMyComputer" | "LaunchPhone" | "LaunchScreenSaver" | "LaunchSpreadsheet" | "LaunchWebBrowser" | "LaunchWebCam" | "LaunchWordProcessor" | "LaunchApplication1" | "LaunchApplication2" | "LaunchApplication3" | "LaunchApplication4" | "LaunchApplication5" | "LaunchApplication6" | "LaunchApplication7" | "LaunchApplication8" | "LaunchApplication9" | "LaunchApplication10" | "LaunchApplication11" | "LaunchApplication12" | "LaunchApplication13" | "LaunchApplication14" | "LaunchApplication15" | "LaunchApplication16"
 type BrowserControlKeys = "BrowserBack" | "BrowserFavorites" | "BrowserForward" | "BrowserHome" | "BrowserRefresh" | "BrowserSearch" | "BrowserStop"
+type KoreanKeyboardsOnly = "HangulMode" | "HanjaMode" | "JunjaMode"
 
 /**
  * @deprecated use " " instead
@@ -34,4 +35,4 @@ type CustomValueKey = string
  * const actionKey : KeyboardEventKey = "ArrowUp" //<- IntelliSense
  * keyboard key behaviour
  */
-export declare type KeyboardEventKey = DeprecatedWhitespaceKey | SpecialValueKey | ModifierKeys | WhitespaceKeys | NavigationKeys | EditingKeys | UIKeys | DeviceKeys | IMECompositionKeys | LinuxDeadKeys | FunctionKeys | PhoneKeys | MultimediaKeys | TVControlKeys | MediaControllerKeys | SpeechRecognitionKeys | DocumentKeys | ApplicationSelectorKeys | BrowserControlKeys | NumericKeypadKeys | UpperAlpha | LowerAlpha | CustomValueKey
+export declare type KeyboardEventKey = DeprecatedWhitespaceKey | SpecialValueKey | ModifierKeys | WhitespaceKeys | NavigationKeys | EditingKeys | UIKeys | DeviceKeys | IMECompositionKeys | LinuxDeadKeys | FunctionKeys | PhoneKeys | MultimediaKeys | TVControlKeys | MediaControllerKeys | SpeechRecognitionKeys | DocumentKeys | ApplicationSelectorKeys | BrowserControlKeys | NumericKeypadKeys | UpperAlpha | LowerAlpha | KoreanKeyboardsOnly | CustomValueKey
