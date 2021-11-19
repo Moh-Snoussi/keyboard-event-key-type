@@ -1,8 +1,9 @@
 {
   "name": "keyboard-event-key-type",
-  "version": "1.3.0",
+  "type": "module",
+  "version": "1.5.0",
   "description": "Contains strings literals for the keyboard event keys",
-  "main": "src/.js",
+  "main": "index.ts",
   "scripts": {
     "build" : "tsc"
   },
