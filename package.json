@@ -7,7 +7,7 @@
     "build" : "tsc"
   },
   "repository": {
-    "url": "https://github.com/Moh-Snoussi/MatomoTypes"
+    "url": "https://github.com/Moh-Snoussi/keyboard-event-key-type"
   },
   "keywords": [
     "types",
